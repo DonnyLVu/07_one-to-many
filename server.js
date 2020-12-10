@@ -1,5 +1,5 @@
 require('dotenv').config();
-const app = require('./lib/app');
+const app = require('./lib/utils/app.js');
 const port = 3001;
 
 app.listen(port, () => {
